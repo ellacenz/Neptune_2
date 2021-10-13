@@ -20,7 +20,14 @@
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],
-	"pdf": [],
+	"pdf": [
+		{
+			"id": "2B1AB913-272B-EC11-AE72-0050F278FF8E",
+			"application": "receipt",
+			"description": "",
+			"ver": "21.10.12.640"
+		}
+	],
 	"rulesengine": [],
 	"reports": [],
 	"api_authentication": [],

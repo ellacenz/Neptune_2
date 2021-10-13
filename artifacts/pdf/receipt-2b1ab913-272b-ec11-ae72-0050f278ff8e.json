@@ -1,0 +1,69 @@
+{
+	"id": "2b1ab913-272b-ec11-ae72-0050f278ff8e",
+	"createdAt": "2021-10-12T06:38:58.623Z",
+	"createdBy": "admin",
+	"interface": [],
+	"objects": [
+		{
+			"fieldNo": "0a6b783a-9ff5-4783-d95b-648ac6268719",
+			"fieldName": "Settings",
+			"fieldParent": 0,
+			"fieldPos": 1,
+			"fieldType": "neptune.pdf.settings",
+			"fieldDescription": "PDF Settings",
+			"attributes": []
+		},
+		{
+			"fieldNo": "69f24b6a-ae2a-4bc4-8fd6-65c5ce9654be",
+			"fieldName": "Content",
+			"fieldParent": 0,
+			"fieldPos": 2,
+			"fieldType": "neptune.pdf.content",
+			"fieldDescription": "Main PDF content area ",
+			"attributes": []
+		},
+		{
+			"fieldNo": "b9162d84-f7b3-4360-fb26-da4f943a5995",
+			"fieldName": "oColumns",
+			"fieldParent": "69f24b6a-ae2a-4bc4-8fd6-65c5ce9654be",
+			"fieldPos": 3,
+			"fieldType": "neptune.pdf.columns",
+			"attributes": []
+		},
+		{
+			"fieldNo": "ed572b8c-d15b-477f-a32a-f610ae3ea47b",
+			"fieldName": "oText",
+			"fieldParent": "b9162d84-f7b3-4360-fb26-da4f943a5995",
+			"fieldPos": 4,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "2021-10-12 08:38:15.056100   (default) : https://openui5.hana.ondemand.com/1.71.37/resources/ -  sap.ui.ModuleSystem jquery-dbg.js:9325 XHR finished loading: POST \"https://dxpdemo-fresh.neptune-software.cloud/api/functions/PDF/Activate\".",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "21fe2f49-3157-40df-bace-be52b713ef5f",
+			"fieldName": "Styles",
+			"fieldParent": 0,
+			"fieldPos": 5,
+			"fieldType": "neptune.pdf.styles",
+			"fieldDescription": "Define your custom styles and assign to objects",
+			"attributes": []
+		}
+	],
+	"application": "receipt",
+	"description": "",
+	"status": "Active",
+	"disabled": false,
+	"ver": "21.10.12.640",
+	"publicAccess": false,
+	"enableStorage": false,
+	"dd": "dd = {'content': [{ 'columns': [{'text':'2021-10-12 08:38:15.056100   (default) : https://openui5.hana.ondemand.com/1.71.37/resources/ -  sap.ui.ModuleSystem jquery-dbg.js:9325 XHR finished loading: POST \"https://dxpdemo-fresh.neptune-software.cloud/api/functions/PDF/Activate\".'}]}],'styles': {}}",
+	"testdata": "",
+	"package": "21e6893e-fa25-ec11-ae72-0050f278ff8e"
+}
